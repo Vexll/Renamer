@@ -2,7 +2,7 @@ import os
 
 
 def target_files(path):
-    files = os.listdir(path)  # put everything in a folder in a list
+    files = os.listdir(path)  # put all files in a list
     videos_files = []
     subtitle_files = []
     for file in files:
